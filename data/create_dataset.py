@@ -67,4 +67,4 @@ for i in tqdm(range(redshift.size)):
     #dataset[:,i+redshift.size] = nigm
     # ...
     
-SaveMatrix('data/reionNNdataset_%dx%d_%d.dat' %(sample_size, redshift.size, dataset.shape[1]), dataset, size=dataset.shape)
+SaveMatrix('reionNNdataset_%dx%d_%d.dat' %(sample_size, redshift.size, dataset.shape[1]), dataset, size=dataset.shape)
