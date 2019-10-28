@@ -1,0 +1,10 @@
+numpy
+numba
+pandas
+matplotlib
+sklearn
+tensorflow
+keras==2.1.5
+pydot
+tqdm
+gzip-reader
